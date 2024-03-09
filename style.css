@@ -1,0 +1,92 @@
+:root {
+    --lexend:"Lexend Deca";
+    --bsd:"Big Shoulders Display";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 930px;
+    height: 500px;
+    margin: 170px auto;
+    display: flex;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    /* for reference only */
+    /* border: red 1px solid; */
+}
+
+.sedan, .suv, .luxury {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+
+    /* for reference only */
+    /* border: red 1px solid; */
+}
+
+.sedan {
+    background: #e28525;
+}
+
+.sedan button {
+    color: #e28525;
+}
+
+.suv {
+    background: #016972;
+}
+
+.suv button {
+    color: #016972;
+}
+
+.luxury {
+    background-color: #00403f;
+}
+
+.luxury button {
+    color: #00403f;
+
+}
+
+img {
+    height: 40px;
+    width: 65px;
+    margin-bottom: 2.5rem;
+}
+
+h1 {
+    color: white;
+    font-family: var(--bsd);
+    margin-bottom: 2.5rem;
+}
+
+button, p {
+    font-family: var(--lexend);
+}
+
+p {
+    margin-bottom: 5.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+button {
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
